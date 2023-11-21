@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+/* Header Section CSS*/
+
+
+
+#menu {
+    display:flex;
+    justify-content: flex-end; 
+    margin-right: 150px;
+}
+
+.hero{
+    background-color:#F0FFFF ;
+    height: 50vh;  
+    padding-top: 20px; 
+    padding-bottom: 50px;
+
+}
+nav>a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+    font: weight 400;
+}
+
+#menu a:hover {
+    color:darkcyan;
+}
+
+#calltoaction {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 70px;
+}
+.socials > a{
+    color: black;
+    
+    
+}
+
+
+
+#heroh1 {
+    
+    color: darkcyan;
+    font-size: 40px;
+}
+
+#heroh2{
+    color: grey;
+    font-size: 22px;
+    font-style: normal;
+}
+
+#heroimage {
+    height: 350px;
+    border-radius: 10%;
+    
+}
+
+
+
+#contactme {
+    margin: 20px 0 0 45vw;
+    font-size: 20px;
+}
+#button {
+    border: 2px solid grey;
+    display: inline;
+    padding: 10px;
+    background-color:transparent;
+    color: grey;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*Main Section CSS*/
+
+#abouteno{
+    width: 500px;
+    border-radius: 10%;
+
+}
+#about {
+    display: inline-block;
+    width: 540px;
+    color: #36454F;
+    line-height: 1.8;
+    font-size: 16px;
+    word-spacing: 4px;
+    text-align: justify;
+    
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    
+    
+}
+#summary > h2 {
+    color: darkcyan;
+}
+main{
+    margin-top: 100px;
+}
+
+/* section work */
+
+#work {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.box1,.box2,.box3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    display: inline-block;
+  
+    padding: 20px;
+}
+
+ .color1 {
+    background-color: whitesmoke;
+ }
+ .color2 {
+    background-color:whitesmoke;
+ }
+
+ .color3 {
+    background-color: whitesmoke;
+ }
+
+
+
+
+h3{
+    color: darkcyan;
+}
+.workparagraph {
+    color: #36454F;
+    font-weight: 500;
+    text-align: justify;
+    font-size: 16px;
+    line-height:1.8;
+
+}
+ /* footer */
+
+ footer{
+    background-color: whitesmoke;
+    margin-top: 100px ;
+    margin-bottom: 50px;
+
+ }
+
+.formdiv {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 50px;
+    
+
+
+}
+
+ .btn {
+    background-color: darkcyan;
+    color: white;
+    border: 0 none darkcyan;
+    height: 50px;
+    width: 300px;
+    
+    font-size: 20px;
+    text-align: center;
+
+    
+ }
+ #email {
+    height: 40px;
+    width: 291px;
+
+ }
+#formlable, #message{
+    font-size: 20px;
+    
+}
+
+    
+
+
+form {
+    display: inline-block;
+    
+
+}
+
+.socialsfooter > .fa-brands{
+    padding-left: 10px;
+
+}
