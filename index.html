@@ -13,10 +13,9 @@
 </head>
 <body>
 
-<!-- Created semantic tag  header which contains the navigation (block element)-->
+<!-- Created semantic tag  header which contains the navigation and other content  -->
     <header class="hero">
-        
-            
+
         
         <nav id="menu">
             <a name="home">Home</a>
@@ -25,9 +24,6 @@
             <a href="https://www.linkedin.com/in/eno-otuokon-b1088769/" target="_blank">Resume</a>
             <a href="#contact">Contact</a>  
         </nav>
-        
-        
-
         <div id="calltoaction">
             <div>
                 <div class="socials">
@@ -36,11 +32,11 @@
                 <a href="https://web.facebook.com/eno.otuokon/"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
                 <a href="https://www.instagram.com/nonootuokon/"><i class="fa-brands fa-instagram fa-lg"></i></a>
                 </div>
-                    <h1 id="heroh1">Productivity | Efficiency | Growth</h1>
-                    <p id="heroh2">Cornerstone for solving complex business problems</p>
-                    <!-- <a href="#about" id="button">About Me</a>-->
-                    <a href="#contact" id="button">Contact Me</a>
-
+                
+                <h1 id="heroh1">Productivity | Efficiency | Growth</h1>
+                <p id="heroh2">Cornerstone for solving complex business problems</p>
+                <!-- <a href="#about" id="button">About Me</a>-->
+                <a href="#contact" id="button">Contact Me</a>
             </div>
             
         
@@ -61,7 +57,7 @@
                 </video>
             </div>
             <div id="summary">
-                <h2>About Eno Otuokon</h2>
+                <a name="about"><h2>About Eno Otuokon</h2></a>
                 <p id="about">
                     Experienced Project Manager/IT Consultant with 21 years in enterprise 
                     solutions. Proven success in delivering projects on time and
@@ -116,17 +112,20 @@
     <footer>
         <div class="formdiv" >
 
-            <div>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Work</a></li>
-                    <li><a href="">Resume</a></li>
-                    <li><a href="">contact</a></li>
+            <div class="footerheader">
+                <p >Quick Links</p>
+                <ul id="footermenu">
+                    <li><a  class="footermenus" href="">Home</a></li>
+                    <li><a class="footermenus" href="">About</a></li>
+                    <li><a class="footermenus" href="">Work</a></li>
+                    <li><a class="footermenus" href="">Resume</a></li>
+                    <li><a class="footermenus" href="">contact</a></li>
 
                 </ul>
             </div>
-            <div class="socials">
+        
+            <div  class="socials footerheader">
+                <p class="">Follow Me </p>
                 <a href="http://linkedin.com/in/eno-otuokon-b1088769/"> <i class="fa-brands fa-linkedin-in fa-lg"></i></a> 
                 <a href="https://github.com/enootuokon"><i class="fa-brands fa-github fa-lg"></i></a> 
                 <a href="https://web.facebook.com/eno.otuokon/"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
@@ -136,9 +135,10 @@
         
             
                 
-            <div>
+            <div class="footerheader">
+                <p >Let's Talk</p>
                 <form action="">
-                    <a name="contact"></a>
+                    <a id="contact"></a>
         
                         <label for="email" id="formlable">Email:</label><br>
                         <input type="email" id="email" ><br>
